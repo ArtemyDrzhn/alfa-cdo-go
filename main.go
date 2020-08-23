@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	file, err := os.Open("export.cer")
+	file, err := os.Open("DOCX_.docx.sig")
 	if err != nil{
 		fmt.Println(err)
 		os.Exit(1)

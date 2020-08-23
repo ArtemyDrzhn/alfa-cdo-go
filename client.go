@@ -36,7 +36,7 @@ func main() {
 	}
 
 	httpRequest:=dataFile
-	conn, err := net.Dial("tcp", "golang.org:4545")
+	conn, err := net.Dial("tcp", "127.0.0.1:4545")
 	if err != nil {
 		fmt.Println(err)
 		return
