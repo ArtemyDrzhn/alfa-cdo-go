@@ -4,7 +4,6 @@ import (
 	"net"
 )
 func main() {
-	message := "Hello, I am a server"   // отправляемое сообщение
 	listener, err := net.Listen("tcp", ":4545")
 
 	if err != nil {
