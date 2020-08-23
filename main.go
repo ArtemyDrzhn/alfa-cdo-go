@@ -1,7 +1,6 @@
 package main
 
 import (
-	"crypto/x509"
 	"fmt"
 	"io"
 	"os"
@@ -39,9 +38,5 @@ func main() {
 
 	fmt.Println(dataFile)
 
-	cert, err := x509.ParseCertificate(dataFile)
-	fmt.Println(cert)
-	if err != nil{
-		fmt.Println(err)
-	}
+	
 }
